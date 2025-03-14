@@ -5,10 +5,8 @@
 var Xhr = require('hazdev-webutils/src/util/Xhr');
 
 // Factories for creating map layers (returns e.g. "L.earthquakesLayer()")
-require('map/DarkLayer');
-require('map/GreyscaleLayer');
+require('map/OceanLayer');
 require('map/RequestedLayer');
-require('map/SatelliteLayer');
 require('map/TerrainLayer');
 
 
@@ -49,23 +47,17 @@ var SignupMap = function (options) {
    *     }
    */
   _getMapLayers = function () {
-    var dark,
-        greyscale,
+    var ocean,
         layers,
-        satellite,
         terrain;
 
-    dark = L.darkLayer();
-    greyscale = L.greyscaleLayer();
-    satellite = L.satelliteLayer();
     terrain = L.terrainLayer();
+    ocean = L.oceanLayer();
 
     layers = {};
     layers.baseLayers = {
       'Terrain': terrain,
-      'Satellite': satellite,
-      'Greyscale': greyscale,
-      'Dark': dark
+      'Ocean': ocean,
     };
     layers.overlays = {
       'Requested sites': _requested,
@@ -87,8 +79,9 @@ var SignupMap = function (options) {
 
     // Create map
     map = L.map(_el, {
+      attributionControl: false,
       layers: layers.defaults,
-      scrollWheelZoom: false
+      scrollWheelZoom: false,
     });
 
     // Set intial map extent to contain requested sites overlay
