@@ -11,7 +11,7 @@ include_once '../lib/_functions.inc.php'; // app functions
  * @author Scott Haefner <shaefner@usgs.gov>
  */
 class Db {
-  private static $db;
+  private $db;
   private $_pdo;
 
   public function __construct($connectionType=NULL) {

@@ -19,36 +19,48 @@ if (!isset($TEMPLATE)) {
   </figcaption>
 </figure>
 
-<p>The USGS is working to achieve a denser and more uniform spacing of
-  seismographs in select urban areas to provide better measurements of ground
-  motion during earthquakes. These measurements improve our ability to make
-  rapid post-earthquake assessments of expected damage and contribute to the
-  continuing development of engineering standards for construction.</p>
+<p>
+  The NetQuakes program was an effort to improve the USGS and Advanced
+  National Seismic System&rsquo;s (ANSS) capability to measure strong
+  ground motion from earthquakes in high- risk metro regions and high-hazard
+  regions with sparse seismic station coverage.  Ground motion measurements
+  improve our ability to make rapid post-earthquake assessments of expected
+  damage and contribute to the understanding of hazard and the continuing
+  development of engineering standards for construction.
+</p>
 
-<p>To accomplish this, we developed a new type of digital seismograph that connects
-  to a local network via WiFi and uses existing broadband connections to transmit
-  data to USGS after an earthquake. The instruments are designed to be installed in
-  private homes, businesses, public buildings and schools with an existing
-  broadband connection to the internet.</p>
+<p>
+  In 2009, the USGS developed a digital seismograph that connects to a
+  local network via WiFi and uses existing internet connections to transmit
+  data to USGS after an earthquake. From 2009-2013, USGS and ANSS regional
+  seismic networks solicited volunteers from across the country and installed
+  several hundred  NetQuakes instruments in private homes, businesses, public
+  buildings and schools with an existing connection to the internet.
+</p>
 
-<h2>View Data</h2>
+<p>
+  NetQuakes stations provide triggered recordings for earthquakes of
+  magnitude 3 and larger.
+</p>
 
-<p>The most recent <a href="netquakes/viewdata">triggered activity at each
-  seismograph</a> is available online.</p>
+<h2>View and Retrieve Data</h2>
 
-<h2>Sign Up</h2>
+<p>
+  The most recent triggered data from active NetQuakes stations is
+  available online and can be
+  <a href="https://earthquake.usgs.gov/monitoring/netquakes/viewdata">viewed here</a>.
+  Netquakes recordings are <a href="https://service.earthscope.org/">archived here</a>.
+</p>
 
-<p>Currently, we are unable to purchase additional instruments,
-  so we don&rsquo;t anticipate performing many new installations.
-  However, if you&rsquo;d like to host a seismograph, we will continue
-  <a href="netquakes/signup">collecting names and addresses</a> so that if more
-  become available, we will be able to place them in the most effective
-  locations.</p>
+<h2>NetQuakes Status and Contacts</h2>
 
-<p>The NetQuakes seismographs access the internet via a wireless router
-  connected to your existing broadband internet connection. The seismograph
-  transmits data only after earthquakes greater than magnitude 3 and otherwise
-  does not consume significant bandwidth.</p>
+<p>
+  The USGS is no longer purchasing or installing new NetQuakes instruments. The
+  USGS considers requests for maintenance of existing NetQuakes stations on a
+  case-by-case basis. If you are a NetQuakes host or user and you have a
+  maintenance question, please contact
+  <a href="mailto:netquakes@usgs.gov?subject=NetQuakes%20Maintenance%20Question">netquakes@usgs.gov</a>.
+</p>
 
 <h2>FAQ</h2>
 
